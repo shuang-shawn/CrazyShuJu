@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     private GameInputActions inputActions;
     private Vector2 moveInput;
     private Rigidbody2D rb;
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
     private string playerTag; // Store the player's tag
     private InputAction moveAction;
     private InputAction attackAction;
@@ -33,6 +35,8 @@ public class PlayerController : MonoBehaviour
         inputActions = new GameInputActions();
         playerTag = gameObject.tag; // Get the tag assigned to the player
         rb = GetComponent<Rigidbody2D>(); // Get the Rigidbody2D component
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         playerCollider = GetComponent<Collider2D>(); // Get the player's Collider2D component
     }
 
@@ -107,6 +111,12 @@ public class PlayerController : MonoBehaviour
         bomb.tag = $"{playerTag}Bomb"; // Tag the bomb to identify which player it belongs to
         currentBombCount++;
 
+        // Play bomb-placement animation if available
+        if (animator != null)
+        {
+            animator.SetTrigger("SetBomb");
+        }
+
         // Force the physics system to update immediately
         Physics2D.SyncTransforms();
 
@@ -133,6 +143,27 @@ public class PlayerController : MonoBehaviour
         if (moveInput == Vector2.zero)
         {
             rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, Vector2.zero, deceleration * Time.fixedDeltaTime);
+        }
+
+        // Animator Speed parameter: use actual velocity when moving, but if player is holding input
+        // keep a non-zero Speed so walking animation continues even if movement is blocked.
+        if (animator != null)
+        {
+            float animSpeed = rb.linearVelocity.magnitude;
+            if (moveInput != Vector2.zero && animSpeed < 0.01f)
+            {
+                // Player is attempting to move but is blocked — give small non-zero speed to keep walking animation.
+                animSpeed = moveSpeed;
+            }
+            animator.SetFloat("Speed", animSpeed);
+        }
+
+        // Flip sprite horizontally when input is left/right. Use input so holding left keeps sprite flipped
+        if (spriteRenderer != null)
+        {
+            if (moveInput.x < 0f) spriteRenderer.flipX = true;
+            else if (moveInput.x > 0f) spriteRenderer.flipX = false;
+            // if moveInput.x == 0, leave current facing direction unchanged
         }
     }
 
