@@ -1,0 +1,11 @@
+{
+    "asset": "704b9eab4fdb7c74b81c8cbcaf9f80b7",
+    "fileName": "019b725e-a084-7bad-a0ab-596dbdff1f99.pose.json",
+    "prompt": "pixelated ocean waves animation for a game background",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 147703843,
+    "w3CTraceId": "52d57b582fc5a79e8f0e0964ef3ab1e2",
+    "isTrimmed": false
+}

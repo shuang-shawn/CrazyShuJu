@@ -1,0 +1,20 @@
+{
+    "asset": "1f58c6cb4f450c047852c208d5795765",
+    "fileName": "019b7261-566b-7e93-aacb-9d49d93750c3.png",
+    "prompt": "pixelated ocean waves background peaceful continuous",
+    "negativePrompt": "",
+    "model": "5b5b2af1-6ea4-4266-b087-cc9f3bf4f450",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "b239ab92ddc0051e323f3bfe486d435f",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}
