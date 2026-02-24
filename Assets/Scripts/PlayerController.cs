@@ -5,6 +5,7 @@
 // This was created with the help of Assistant, a Unity Artificial Intelligence product.
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour
 
     private int currentBombCount = 0; // Track the number of bombs in the scene
     private Collider2D playerCollider; // Reference to the player's collider
+    private bool isDead = false;
 
     private void Awake()
     {
@@ -175,6 +177,9 @@ public class PlayerController : MonoBehaviour
     // Called when this player is hit by an explosion
     public void HandleExplosionHit()
     {
+        if (isDead) return;
+        isDead = true;
+
         var renderer = GetComponent<SpriteRenderer>();
         if (animator != null)
         {
@@ -184,10 +189,29 @@ public class PlayerController : MonoBehaviour
         // Stop movement capability
         enabled = false;
 
-        // // Prevent interaction: set layer to IgnoreRaycast and disable collider
-        // gameObject.layer = LayerMask.NameToLayer("IgnoreRaycast");
-        // var collider = GetComponent<Collider2D>();
-        // if (collider != null)
-        //     collider.enabled = false;
+        // Prevent interaction: set layer to IgnoreRaycast and disable collider
+        gameObject.layer = LayerMask.NameToLayer("IgnoreRaycast");
+        var collider = GetComponent<Collider2D>();
+        if (collider != null)
+            collider.enabled = false;
+
+        // After 3 seconds, load appropriate win scene
+        StartCoroutine(DeathAndLoadRoutine());
+    }
+
+    private System.Collections.IEnumerator DeathAndLoadRoutine()
+    {
+        yield return new WaitForSeconds(3f);
+
+        // If this object is Player1, load JuWinScene (player1 was hit -> Ju loses?),
+        // if Player2 was hit, load ShuangWinScene.
+        if (playerTag == "Player1")
+        {
+            SceneManager.LoadScene("JuWinScene");
+        }
+        else if (playerTag == "Player2")
+        {
+            SceneManager.LoadScene("ShuangWinScene");
+        }
     }
 }
