@@ -171,4 +171,23 @@ public class PlayerController : MonoBehaviour
     {
         currentBombCount--; // Decrease bomb count when a bomb explodes
     }
+
+    // Called when this player is hit by an explosion
+    public void HandleExplosionHit()
+    {
+        var renderer = GetComponent<SpriteRenderer>();
+        if (animator != null)
+        {
+            animator.SetBool("IsDead", true);
+        }
+
+        // Stop movement capability
+        enabled = false;
+
+        // // Prevent interaction: set layer to IgnoreRaycast and disable collider
+        // gameObject.layer = LayerMask.NameToLayer("IgnoreRaycast");
+        // var collider = GetComponent<Collider2D>();
+        // if (collider != null)
+        //     collider.enabled = false;
+    }
 }

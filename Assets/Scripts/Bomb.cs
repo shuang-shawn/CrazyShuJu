@@ -112,16 +112,8 @@ public class Bomb : MonoBehaviour
                     var player = hit.collider.gameObject.GetComponent<PlayerController>();
                     if (player != null)
                     {
-                        var renderer = player.GetComponent<SpriteRenderer>();
-                        if (renderer != null)
-                            renderer.color = Color.white;
-                        // Stop movement capability
-                        player.enabled = false;
-                        // Prevent interaction: set layer to IgnoreRaycast and disable collider
-                        player.gameObject.layer = LayerMask.NameToLayer("IgnoreRaycast");
-                        var collider = player.GetComponent<Collider2D>();
-                        if (collider != null)
-                            collider.enabled = false;
+                        // Delegate handling to PlayerController
+                        player.HandleExplosionHit();
                     }
                 }
 
