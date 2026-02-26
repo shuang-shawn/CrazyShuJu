@@ -149,23 +149,37 @@ public class PlayerController : MonoBehaviour
 
         // Animator Speed parameter: use actual velocity when moving, but if player is holding input
         // keep a non-zero Speed so walking animation continues even if movement is blocked.
+        // if (animator != null)
+        // {
+        //     float animSpeed = rb.linearVelocity.magnitude;
+        //     if (moveInput != Vector2.zero && animSpeed < 0.01f)
+        //     {
+        //         // Player is attempting to move but is blocked — give small non-zero speed to keep walking animation.
+        //         animSpeed = moveSpeed;
+        //     }
+        //     animator.SetFloat("Speed", animSpeed);
+        // }
+
+        // // Flip sprite horizontally when input is left/right. Use input so holding left keeps sprite flipped
+        // if (spriteRenderer != null)
+        // {
+        //     if (moveInput.x < 0f) spriteRenderer.flipX = true;
+        //     else if (moveInput.x > 0f) spriteRenderer.flipX = false;
+        //     // if moveInput.x == 0, leave current facing direction unchanged
+        // }
+
         if (animator != null)
         {
-            float animSpeed = rb.linearVelocity.magnitude;
-            if (moveInput != Vector2.zero && animSpeed < 0.01f)
-            {
-                // Player is attempting to move but is blocked — give small non-zero speed to keep walking animation.
-                animSpeed = moveSpeed;
+            if (moveInput.sqrMagnitude > 0.01f) {
+            animator.SetFloat("Horizontal", moveInput.x);
+            animator.SetFloat("Vertical", moveInput.y);
             }
-            animator.SetFloat("Speed", animSpeed);
-        }
-
-        // Flip sprite horizontally when input is left/right. Use input so holding left keeps sprite flipped
-        if (spriteRenderer != null)
-        {
-            if (moveInput.x < 0f) spriteRenderer.flipX = true;
-            else if (moveInput.x > 0f) spriteRenderer.flipX = false;
-            // if moveInput.x == 0, leave current facing direction unchanged
+            if (rb.linearVelocity.magnitude > 8.9f)
+            {
+                animator.SetFloat("Speed", rb.linearVelocity.magnitude);
+            } else {
+                animator.SetFloat("Speed", moveInput.magnitude);
+            }
         }
     }
 

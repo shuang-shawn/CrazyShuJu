@@ -14,11 +14,11 @@
   <Project Path="Unity.VisualScripting.Core.Editor.csproj" />
   <Project Path="Unity.AI.Assistant.Runtime.csproj" />
   <Project Path="Unity.PerformanceTesting.Editor.csproj" />
+  <Project Path="Unity.AI.Assistant.UI.Editor.csproj" />
   <Project Path="glTFast.Editor.csproj" />
   <Project Path="Unity.AppUI.Redux.csproj" />
-  <Project Path="Unity.AI.Assistant.UI.Editor.csproj" />
-  <Project Path="Unity.Burst.csproj" />
   <Project Path="Unity.AI.MCP.Editor.csproj" />
+  <Project Path="Unity.Burst.csproj" />
   <Project Path="Unity.InferenceEngine.Editor.Visualizer.csproj" />
   <Project Path="glTFast.csproj" />
   <Project Path="Unity.VisualScripting.Flow.Editor.csproj" />
