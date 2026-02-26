@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2117681785079008807}
   - component: {fileID: 953608132995323160}
   - component: {fileID: 6501637622300556645}
-  - component: {fileID: 4345743546006049866}
+  - component: {fileID: 8350054853041086522}
+  - component: {fileID: 4483702795654917528}
   m_Layer: 8
   m_Name: Bomb
   m_TagString: Player1Bomb
@@ -28,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 1522602381120959881}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18522, y: -3.24, z: 0}
-  m_LocalScale: {x: 0.6818, y: 0.6818, z: 0.6818}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5.8798585, y: 5.8798585, z: 5.8798585}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 8560451000399327191, guid: d099fe001602cae45b62220aa856e0ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -108,7 +109,32 @@ MonoBehaviour:
   explosionDelay: 2
   explosionRange: 3
   explosionPrefab: {fileID: 716641664759238010, guid: 7772e3a45344f8d48b313a0cb9c75e97, type: 3}
---- !u!58 &4345743546006049866
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  midColor: {r: 1, g: 0.5, b: 0, a: 1}
+  endColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!95 &8350054853041086522
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522602381120959881}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fc53ba0cd4db8db408452c789a00de3b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!58 &4483702795654917528
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,4 +169,4 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 0.07
