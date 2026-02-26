@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4598398639958804639}
   - component: {fileID: 4515570359213035750}
   m_Layer: 7
-  m_Name: Block
+  m_Name: MovableBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 4544478972433616291}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.60698, y: 0.73784, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5.5874, y: 5.18, z: 5.5874}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,8 +83,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9811321, g: 0.45068806, b: 0.0046279924, a: 1}
+  m_Sprite: {fileID: -1060139565477403118, guid: 2798d329baf98b448a710169ab5ce4ad, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cd7f75867245114e952a299546fa8aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  blockType: 0
+  blockType: 2
   gameManager: {fileID: 0}
   powerUpPrefab: {fileID: 8542957956496595121, guid: 80ebd60d5c4f46d468679e47fb2a6b8c, type: 3}
 --- !u!61 &4515570359213035750
@@ -142,15 +142,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0009822249, y: 0.0039292127}
+  m_Offset: {x: -0.00055810064, y: -0.0005723424}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.16, y: 0.18}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.97838926, y: 0.9724951}
+  m_Size: {x: 0.17353235, y: 0.18549043}
   m_EdgeRadius: 0

@@ -3,16 +3,20 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject blockPrefab;
+    public GameObject chestBlockPrefab;
+    public GameObject movableBlockPrefab;
+    public GameObject solidBlockPrefab;
     public int minDestructibleBlocks = 15;
     public int minSolidBlocks = 10;
     public int mazeWidth = 11;
     public int mazeHeight = 9;
     public float gridSize = 1f;
+    [Tooltip("Chance (0..1) to spawn no power-up even when power-ups are available")]
+    public float noPowerUpChance = 0.5f;
 
     void Start()
     {
-        SpawnMazeBlocks();
+        // SpawnMazeBlocks();
         // ...existing code...
     }
 
@@ -48,17 +52,46 @@ public class GameManager : MonoBehaviour
         // Place solid blocks
         foreach (var pos in solidPositions)
         {
-            GameObject blockObj = Instantiate(blockPrefab, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
+            GameObject prefab = solidBlockPrefab;
+            if (prefab == null)
+            {
+                Debug.LogWarning("solidBlockPrefab is not assigned in GameManager.");
+                continue;
+            }
+            GameObject blockObj = Instantiate(prefab, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
             Block block = blockObj.GetComponent<Block>();
             if (block != null) block.Initialize(Block.BlockType.Solid);
         }
 
-        // Place destructible blocks
+        // Place destructible/movable/chest blocks
         foreach (var pos in destructiblePositions)
         {
-            GameObject blockObj = Instantiate(blockPrefab, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
-            Block block = blockObj.GetComponent<Block>();
-            if (block != null) block.Initialize(Block.BlockType.Destructible);
+            // Randomly choose between chest (destructible) and movable blocks
+            bool spawnChest = rng.NextDouble() < 0.5;
+            if (spawnChest)
+            {
+                GameObject prefab = chestBlockPrefab;
+                if (prefab == null)
+                {
+                    Debug.LogWarning("chestBlockPrefab is not assigned in GameManager.");
+                    continue;
+                }
+                GameObject blockObj = Instantiate(prefab, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
+                Block block = blockObj.GetComponent<Block>();
+                if (block != null) block.Initialize(Block.BlockType.Destructible);
+            }
+            else
+            {
+                GameObject prefab = movableBlockPrefab;
+                if (prefab == null)
+                {
+                    Debug.LogWarning("movableBlockPrefab is not assigned in GameManager.");
+                    continue;
+                }
+                GameObject blockObj = Instantiate(prefab, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
+                Block block = blockObj.GetComponent<Block>();
+                if (block != null) block.Initialize(Block.BlockType.Movable);
+            }
         }
     }
 
@@ -78,14 +111,12 @@ public class GameManager : MonoBehaviour
         if (CanSpawnExtraBomb()) available.Add(PowerUpType.ExtraBomb);
         if (available.Count == 0) return null;
 
-        // Add a null option to the list for equal chance
-        int totalOptions = available.Count + 1; // +1 for null
-        int idx = UnityEngine.Random.Range(0, totalOptions);
-        if (idx == available.Count)
+        // Chance to spawn no power-up even when some are available
+        if (UnityEngine.Random.value < noPowerUpChance)
         {
-            // Return null with equal chance
             return null;
         }
+        int idx = UnityEngine.Random.Range(0, available.Count);
         PowerUpType selected = available[idx];
         // Increment the counter for the selected power-up
         switch (selected)

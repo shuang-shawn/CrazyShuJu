@@ -29,34 +29,12 @@ public class Block : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         gameManager = GameObject.FindFirstObjectByType<GameManager>();
-
-        if (blockType == BlockType.Destructible)
-        {
-            spriteRenderer.color = new Color(0.98f, 0.451f, 0.004f);
-        }
-        else if (blockType == BlockType.Solid)
-        {
-            spriteRenderer.color = new Color(0.36f, 0.25f, 0.20f); // RGB for dark brown
-        }
-
         occupancyLayerMask = LayerMask.GetMask("PlayerLayer", "BlockLayer", "BombLayer");
     }
 
     public void Initialize(BlockType type)
     {
         blockType = type;
-        if (blockType == BlockType.Destructible)
-        {
-            spriteRenderer.color = new Color(0.98f, 0.451f, 0.004f);
-        }
-        else if (blockType == BlockType.Solid)
-        {
-            spriteRenderer.color = new Color(0.36f, 0.25f, 0.20f); // RGB for dark brown
-        }
-        else if (blockType == BlockType.Movable)
-        {
-            spriteRenderer.color = new Color(0.2f, 0.6f, 0.95f); // light blue for movable
-        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
