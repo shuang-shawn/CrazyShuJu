@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 3759b142affbe49479ae52a805cd29f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6962496110692253193
+    second: SpeedBoost_0
+  - first:
+      213: 3473143023985243363
+    second: SpeedBoost_1
+  - first:
+      213: -5948921555375897119
+    second: SpeedBoost_2
+  - first:
+      213: -1601578711504589296
+    second: SpeedBoost_3
+  - first:
+      213: -8265872794963142184
+    second: SpeedBoost_4
+  - first:
+      213: 1755080306724637371
+    second: SpeedBoost_5
+  - first:
+      213: -697584917050651674
+    second: SpeedBoost_6
+  - first:
+      213: -4713210181283961251
+    second: SpeedBoost_7
+  - first:
+      213: -2888058534091323080
+    second: SpeedBoost_8
+  - first:
+      213: -6711448086828404234
+    second: SpeedBoost_9
+  - first:
+      213: -8626934072006947000
+    second: SpeedBoost_10
+  - first:
+      213: 886302117808367781
+    second: SpeedBoost_11
+  - first:
+      213: 90995902494715929
+    second: SpeedBoost_12
+  - first:
+      213: 2353771070371832417
+    second: SpeedBoost_13
+  - first:
+      213: 276595308954867655
+    second: SpeedBoost_14
+  - first:
+      213: 7629728214236845962
+    second: SpeedBoost_15
+  - first:
+      213: -2887191594748742399
+    second: SpeedBoost_16
+  - first:
+      213: 7060633778330505489
+    second: SpeedBoost_17
+  - first:
+      213: 2205601219373558206
+    second: SpeedBoost_18
+  - first:
+      213: 6122706605686941340
+    second: SpeedBoost_19
+  - first:
+      213: 1160924650121193973
+    second: SpeedBoost_20
+  - first:
+      213: -8726462443347942905
+    second: SpeedBoost_21
+  - first:
+      213: -2075303013925597976
+    second: SpeedBoost_22
+  - first:
+      213: -1529618170797674704
+    second: SpeedBoost_23
+  - first:
+      213: 1773865441957914178
+    second: SpeedBoost_24
+  - first:
+      213: -4782872504439234461
+    second: SpeedBoost_25
+  - first:
+      213: 972336435649000118
+    second: SpeedBoost_26
+  - first:
+      213: 2063655087406524817
+    second: SpeedBoost_27
+  - first:
+      213: -766848504991686797
+    second: SpeedBoost_28
+  - first:
+      213: -4479364271851050626
+    second: SpeedBoost_29
+  - first:
+      213: 222602107307190506
+    second: SpeedBoost_30
+  - first:
+      213: -4731963167820835427
+    second: SpeedBoost_31
+  - first:
+      213: -1338776212711317041
+    second: SpeedBoost_32
+  - first:
+      213: -2196170435198423340
+    second: SpeedBoost_33
+  - first:
+      213: 3226958287165943889
+    second: SpeedBoost_34
+  - first:
+      213: -533062640960673999
+    second: SpeedBoost_35
+  - first:
+      213: 7637932280573752948
+    second: SpeedBoost_36
+  - first:
+      213: 2127524058584384213
+    second: SpeedBoost_37
+  - first:
+      213: -2841381415018030335
+    second: SpeedBoost_38
+  - first:
+      213: 1751902734106967204
+    second: SpeedBoost_39
+  - first:
+      213: 7726248403163452131
+    second: SpeedBoost_40
+  - first:
+      213: -3480332175684233361
+    second: SpeedBoost_41
+  - first:
+      213: -548178397679668585
+    second: SpeedBoost_42
+  - first:
+      213: 3596566356426556905
+    second: SpeedBoost_43
+  - first:
+      213: -8870631250721711640
+    second: SpeedBoost_44
+  - first:
+      213: -2757515756042538400
+    second: SpeedBoost_45
+  - first:
+      213: 2007922483066013857
+    second: SpeedBoost_46
+  - first:
+      213: 3390347501410262729
+    second: SpeedBoost_47
+  - first:
+      213: -721904125303929177
+    second: SpeedBoost_48
+  - first:
+      213: -6128844669957077063
+    second: SpeedBoost_49
+  - first:
+      213: 6997514791037071410
+    second: SpeedBoost_50
+  - first:
+      213: 2762119730976520020
+    second: SpeedBoost_51
+  - first:
+      213: 8054541104330044952
+    second: SpeedBoost_52
+  - first:
+      213: -2518418082536749371
+    second: SpeedBoost_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpeedBoost_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eb9d3e251cf9060800000000000000
+      internalID: 6962496110692253193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBoost_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e434c6cd25133030800000000000000
+      internalID: 3473143023985243363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBoost_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5c7273d5f217da0800000000000000
+      internalID: -5948921555375897119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBoost_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ee0fcb5ac06c9e0800000000000000
+      internalID: -1601578711504589296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBoost_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d918a9cc78b94d80800000000000000
+      internalID: -8265872794963142184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBoost_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba0b9a7d3c4b5810800000000000000
+      internalID: 1755080306724637371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBoost_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb8682c63ea156f0800000000000000
+      internalID: -697584917050651674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBoost_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56a0d0df40579eb0800000000000000
+      internalID: -4713210181283961251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBoost_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83983f8901e8be7d0800000000000000
+      internalID: -2888058534091323080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBoost_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f13e1816852cd2a0800000000000000
+      internalID: -6711448086828404234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBoost_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fcf414b29f64880800000000000000
+      internalID: -8626934072006947000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBoost_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8e4af8417cc4c00800000000000000
+      internalID: 886302117808367781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8dd4bd75b2fb4c549bc37a4d2c0fff00
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SpeedBoost_0: 6962496110692253193
+      SpeedBoost_1: 3473143023985243363
+      SpeedBoost_10: -8626934072006947000
+      SpeedBoost_11: 886302117808367781
+      SpeedBoost_2: -5948921555375897119
+      SpeedBoost_3: -1601578711504589296
+      SpeedBoost_4: -8265872794963142184
+      SpeedBoost_5: 1755080306724637371
+      SpeedBoost_6: -697584917050651674
+      SpeedBoost_7: -4713210181283961251
+      SpeedBoost_8: -2888058534091323080
+      SpeedBoost_9: -6711448086828404234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

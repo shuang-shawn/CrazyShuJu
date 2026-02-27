@@ -2,6 +2,26 @@ using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
+    [Header("Sprites for each power-up type")]
+    public Sprite speedBoostSprite;
+    public Sprite extraBombSprite;
+    public Sprite explosionRangeSprite;
+
+    public enum PowerUpType
+    {
+        SpeedBoost,
+        ExtraBomb,
+        ExplosionRange
+    }
+
+    public PowerUpType powerUpType;
+    private SpriteRenderer spriteRenderer;
+
+    void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         PlayerController player = other.GetComponent<PlayerController>();
@@ -23,7 +43,6 @@ public class PowerUp : MonoBehaviour
                     break;
             }
 
-            // Play pickup sound effect
             if (AudioManager.Instance != null)
             {
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.pickupSFX);
@@ -32,48 +51,30 @@ public class PowerUp : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    private SpriteRenderer spriteRenderer;
 
-    public enum PowerUpType
-    {
-        SpeedBoost,
-        ExtraBomb,
-        ExplosionRange
-    }
-    public PowerUpType powerUpType;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Awake()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        
-    }
-    void Start()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void Initialize(PowerUpType type)
     {
         powerUpType = type;
-        if (powerUpType == PowerUpType.SpeedBoost)
+
+        if (spriteRenderer == null)
         {
-            Debug.Log("This is a Speed Boost power-up");
-            spriteRenderer.color = new Color(0f, 0f, 1f);
+            spriteRenderer = GetComponent<SpriteRenderer>();
         }
-        else if (powerUpType == PowerUpType.ExtraBomb)
+
+        switch (powerUpType)
         {
-            Debug.Log("This is an Extra Bomb power-up");
-            spriteRenderer.color = new Color(0.0f, 1.0f, 0.0f); // Example color for Extra Bomb
-        }
-        else if (powerUpType == PowerUpType.ExplosionRange)
-        {
-            Debug.Log("This is an Explosion Range power-up");
-            spriteRenderer.color = new Color(1.0f, 0.0f, 0.0f); // Example color for Explosion Range
+            case PowerUpType.SpeedBoost:
+                if (speedBoostSprite != null) spriteRenderer.sprite = speedBoostSprite;
+                Debug.Log("This is a Speed Boost power-up");
+                break;
+            case PowerUpType.ExtraBomb:
+                if (extraBombSprite != null) spriteRenderer.sprite = extraBombSprite;
+                Debug.Log("This is an Extra Bomb power-up");
+                break;
+            case PowerUpType.ExplosionRange:
+                if (explosionRangeSprite != null) spriteRenderer.sprite = explosionRangeSprite;
+                Debug.Log("This is an Explosion Range power-up");
+                break;
         }
     }
 }

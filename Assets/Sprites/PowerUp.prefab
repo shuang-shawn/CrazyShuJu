@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4428993093999507836}
   - component: {fileID: 6018230611644764171}
   - component: {fileID: -3543543055547383421}
-  - component: {fileID: 3809713843927811155}
+  - component: {fileID: 5687595948126439932}
   m_Layer: 0
   m_Name: PowerUp
   m_TagString: Untagged
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 8542957956496595121}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 0.03, z: 0}
-  m_LocalScale: {x: 1, y: 1.9875, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8682994, y: 0.77736264, z: 0.39112586}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 3625043607559282579, guid: 19fb86013d8c24d6cb8410c0aadf30fa, type: 3}
+  m_Sprite: {fileID: -1601578711504589296, guid: 3759b142affbe49479ae52a805cd29f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,9 +105,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28348233b9d6d8a49995893d1c8167ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  speedBoostSprite: {fileID: -1601578711504589296, guid: 3759b142affbe49479ae52a805cd29f3, type: 3}
+  extraBombSprite: {fileID: -1615591449214129068, guid: 7177efc0e5e0d094fb2309d13e21cc4f, type: 3}
+  explosionRangeSprite: {fileID: -700145753515148034, guid: 7177efc0e5e0d094fb2309d13e21cc4f, type: 3}
   powerUpType: 0
---- !u!60 &3809713843927811155
-PolygonCollider2D:
+--- !u!61 &5687595948126439932
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -140,20 +143,15 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.007999897, y: -0.017871678}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
     newSize: {x: 1, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0, y: 0.25}
-      - {x: -0.5, y: 0}
-      - {x: 0, y: -0.25}
-      - {x: 0.5, y: 0}
-  m_UseDelaunayMesh: 1
+  m_Size: {x: 1.1200039, y: 1.1779257}
+  m_EdgeRadius: 0
