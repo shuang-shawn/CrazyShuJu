@@ -1,0 +1,14 @@
+---
+alwaysApply: true
+---
+---
+description: Rules for 2D Top-Down Unity Development
+globs: Assets/Scripts/**/*.cs
+---
+
+# 2D Top-Down Standards
+- Always use **Vector2** for movement logic unless Z-axis depth is required.
+<!-- - Use `Rigidbody2D.MovePosition` for physics-based movement to avoid jitter. -->
+- For animations, use **Blend Trees** with 'Horizontal', 'Vertical', and 'Speed' parameters.
+- Ensure all sprite-related code accounts for **Pixel Perfect** settings.
+- Prefer the **New Input System** (Input Actions) over `Input.GetAxis`.

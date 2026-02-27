@@ -1,0 +1,27 @@
+# Unity Folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]nityConfiguration/
+
+# Media and Large Assets
+*.png
+*.jpg
+*.jpeg
+*.tga
+*.psd
+*.wav
+*.mp3
+*.fbx
+*.obj
+*.unitypackage
+
+# External/System Files
+.git/
+.svn/
+*.sln
+*.csproj
+*.userprefs
