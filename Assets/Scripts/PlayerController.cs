@@ -203,6 +203,12 @@ public class PlayerController : MonoBehaviour
         // Stop movement capability
         enabled = false;
 
+        // Stop any ongoing velocity to prevent drifting
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+
         // Prevent interaction: set layer to IgnoreRaycast and disable collider
         gameObject.layer = LayerMask.NameToLayer("IgnoreRaycast");
         var collider = GetComponent<Collider2D>();
