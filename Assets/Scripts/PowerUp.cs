@@ -22,6 +22,13 @@ public class PowerUp : MonoBehaviour
                     Debug.Log("Player received Explosion Range: +1 explosionRange");
                     break;
             }
+
+            // Play pickup sound effect
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlaySFX(AudioManager.Instance.pickupSFX);
+            }
+
             Destroy(gameObject);
         }
     }

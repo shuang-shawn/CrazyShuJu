@@ -76,6 +76,12 @@ public class Bomb : MonoBehaviour
         exploded = true;
         Debug.Log($"{ownerTag}'s bomb exploded!");
 
+        // Play explosion sound effect
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.explosionSFX);
+        }
+
         // Spawn explosion prefabs
         SpawnExplosions();
 

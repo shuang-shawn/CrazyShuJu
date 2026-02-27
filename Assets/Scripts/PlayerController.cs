@@ -125,6 +125,12 @@ public class PlayerController : MonoBehaviour
         // Start the explosion timer, passing the player's explosionRange
         Bomb bombScript = bomb.GetComponent<Bomb>();
         bombScript.Initialize(playerTag, this, explosionRange);
+
+        // Play bomb placement sound effect
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.bombPlaceSFX);
+        }
     }
 
     private Vector3 SnapToGrid(Vector3 originalPosition)
@@ -193,6 +199,12 @@ public class PlayerController : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
+
+        // Play player hit sound effect
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.playerHitSFX);
+        }
 
         var renderer = GetComponent<SpriteRenderer>();
         if (animator != null)
