@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 4368891d59323d447a533984baa5850d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7812606080289358467
+    second: Frog_death_0
+  - first:
+      213: -1001859248994097438
+    second: Frog_death_1
+  - first:
+      213: -2368954074263523984
+    second: Frog_death_2
+  - first:
+      213: 5419249081577987158
+    second: Frog_death_3
+  - first:
+      213: -6963118565955562886
+    second: Frog_death_4
+  - first:
+      213: 5970795100058595786
+    second: Frog_death_5
+  - first:
+      213: -5031847384916986997
+    second: Frog_death_6
+  - first:
+      213: 8998966925252463335
+    second: Frog_death_7
+  - first:
+      213: -777115124590039548
+    second: Frog_death_8
+  - first:
+      213: -6258580221949929592
+    second: Frog_death_9
+  - first:
+      213: 2077278029834706014
+    second: Frog_death_10
+  - first:
+      213: 5309586325873321238
+    second: Frog_death_11
+  - first:
+      213: -1406953708342416950
+    second: Frog_death_12
+  - first:
+      213: -4728447973197953348
+    second: Frog_death_13
+  - first:
+      213: 7571101778147326906
+    second: Frog_death_14
+  - first:
+      213: 1882533784390893961
+    second: Frog_death_15
+  - first:
+      213: 842305450228478698
+    second: Frog_death_16
+  - first:
+      213: -8632760449262873803
+    second: Frog_death_17
+  - first:
+      213: -3493791824033800501
+    second: Frog_death_18
+  - first:
+      213: -8453419107983512040
+    second: Frog_death_19
+  - first:
+      213: -5840646583341643396
+    second: Frog_death_20
+  - first:
+      213: 8227821323821886450
+    second: Frog_death_21
+  - first:
+      213: -1971991739652567788
+    second: Frog_death_22
+  - first:
+      213: 3706957435386309942
+    second: Frog_death_23
+  - first:
+      213: 4425711892130064228
+    second: Frog_death_24
+  - first:
+      213: 5656480971827868458
+    second: Frog_death_25
+  - first:
+      213: 1644982477661517750
+    second: Frog_death_26
+  - first:
+      213: -194612137531326572
+    second: Frog_death_27
+  - first:
+      213: -3039983802740752271
+    second: Frog_death_28
+  - first:
+      213: 900618379693618239
+    second: Frog_death_29
+  - first:
+      213: 6445309798873180820
+    second: Frog_death_30
+  - first:
+      213: 3198905201829709677
+    second: Frog_death_31
+  - first:
+      213: 652492565843774896
+    second: Frog_death_32
+  - first:
+      213: 2907138333589178812
+    second: Frog_death_33
+  - first:
+      213: -1369647462884955491
+    second: Frog_death_34
+  - first:
+      213: 5527633977762185168
+    second: Frog_death_35
+  - first:
+      213: 3444455664293420425
+    second: Frog_death_36
+  - first:
+      213: -5699434988901626403
+    second: Frog_death_37
+  - first:
+      213: -1648079923794905776
+    second: Frog_death_38
+  - first:
+      213: 7159289884948240968
+    second: Frog_death_39
+  - first:
+      213: -5019508150849899566
+    second: Frog_death_40
+  - first:
+      213: 7775518317669110497
+    second: Frog_death_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Frog_death_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 683
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7dbb46b92c049390800000000000000
+      internalID: -7812606080289358467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog_death_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 683
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e664c4325ea812f0800000000000000
+      internalID: -1001859248994097438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog_death_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dee4a12d8cf1fd0800000000000000
+      internalID: -2368954074263523984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog_death_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 342
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c51d8c35a053b40800000000000000
+      internalID: 5419249081577987158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog_death_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 342
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a729a437e880e5f90800000000000000
+      internalID: -6963118565955562886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog_death_5
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 342
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1b2a542868cd250800000000000000
+      internalID: 5970795100058595786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog_death_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1
+        width: 256
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b837b0a96794b2ab0800000000000000
+      internalID: -5031847384916986997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 27917fbebc539e44a86dd8c9a92bb234
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":256.0,"y":341.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Frog_death_0: -7812606080289358467
+      Frog_death_1: -1001859248994097438
+      Frog_death_2: -2368954074263523984
+      Frog_death_3: 5419249081577987158
+      Frog_death_4: -6963118565955562886
+      Frog_death_5: 5970795100058595786
+      Frog_death_6: -5031847384916986997
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

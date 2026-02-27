@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 84989538254f5b143a5f64ae97f8e7a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1856964642187757820
+    second: Bunny_death_0
+  - first:
+      213: 8931491255484636870
+    second: Bunny_death_1
+  - first:
+      213: 3623602145646507479
+    second: Bunny_death_2
+  - first:
+      213: 3044597347612283591
+    second: Bunny_death_3
+  - first:
+      213: 3125021343509324734
+    second: Bunny_death_4
+  - first:
+      213: -6022066330423514128
+    second: Bunny_death_5
+  - first:
+      213: -813714564518333989
+    second: Bunny_death_6
+  - first:
+      213: -3204490142168563207
+    second: Bunny_death_7
+  - first:
+      213: -2845988204171976213
+    second: Bunny_death_8
+  - first:
+      213: -4780540652347451598
+    second: Bunny_death_9
+  - first:
+      213: 6758474736669014783
+    second: Bunny_death_10
+  - first:
+      213: 7609224649994422691
+    second: Bunny_death_11
+  - first:
+      213: 998430329897573743
+    second: Bunny_death_12
+  - first:
+      213: 3247826744408425071
+    second: Bunny_death_13
+  - first:
+      213: -3397151804923961798
+    second: Bunny_death_14
+  - first:
+      213: -1648121373992369072
+    second: Bunny_death_15
+  - first:
+      213: 8103293967681109298
+    second: Bunny_death_16
+  - first:
+      213: -8976622773998353374
+    second: Bunny_death_17
+  - first:
+      213: -3587447740256986941
+    second: Bunny_death_18
+  - first:
+      213: -5280021152711210582
+    second: Bunny_death_19
+  - first:
+      213: 4895405136460782754
+    second: Bunny_death_20
+  - first:
+      213: -614370782641075479
+    second: Bunny_death_21
+  - first:
+      213: 6884863895948273257
+    second: Bunny_death_22
+  - first:
+      213: -7906944146551485118
+    second: Bunny_death_23
+  - first:
+      213: -5238762797686713710
+    second: Bunny_death_24
+  - first:
+      213: -6841013461764398415
+    second: Bunny_death_25
+  - first:
+      213: 4375373801955926469
+    second: Bunny_death_26
+  - first:
+      213: 8633279906264775827
+    second: Bunny_death_27
+  - first:
+      213: -1693172501740625501
+    second: Bunny_death_28
+  - first:
+      213: -8884221232644536576
+    second: Bunny_death_29
+  - first:
+      213: -3004149638248825838
+    second: Bunny_death_30
+  - first:
+      213: -4914165223732678339
+    second: Bunny_death_31
+  - first:
+      213: -7197644327902050018
+    second: Bunny_death_32
+  - first:
+      213: 5196860268354796940
+    second: Bunny_death_33
+  - first:
+      213: 3215925449639861111
+    second: Bunny_death_34
+  - first:
+      213: -4353488138124087895
+    second: Bunny_death_35
+  - first:
+      213: 8386773393389742025
+    second: Bunny_death_36
+  - first:
+      213: 5037538514669078196
+    second: Bunny_death_37
+  - first:
+      213: -6885243908019758051
+    second: Bunny_death_38
+  - first:
+      213: 2391627243305812803
+    second: Bunny_death_39
+  - first:
+      213: -1056286839747032419
+    second: Bunny_death_40
+  - first:
+      213: -5033792143725659978
+    second: Bunny_death_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bunny_death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5301932, y: 0.31280208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8cf02e08345c910800000000000000
+      internalID: 1856964642187757820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunny_death_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 514
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5301932, y: 0.31280208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce5badc9f703fb70800000000000000
+      internalID: 8931491255484636870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunny_death_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5301932, y: 0.31280208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d57a9ae3fe994230800000000000000
+      internalID: 3623602145646507479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunny_death_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5301932, y: 0.31280208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2d68c1825904a20800000000000000
+      internalID: 3044597347612283591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunny_death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5301932, y: 0.31280208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb32367da5e4e5b20800000000000000
+      internalID: 3125021343509324734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunny_death_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5301932, y: 0.31280208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb244924925d6ca0800000000000000
+      internalID: -6022066330423514128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunny_death_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 258
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5301932, y: 0.31280208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1b2513aea15b4f0800000000000000
+      internalID: -813714564518333989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 139733f82973fec4a93e32bda68ddc4d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Bunny_death_0: 1856964642187757820
+      Bunny_death_1: 8931491255484636870
+      Bunny_death_2: 3623602145646507479
+      Bunny_death_3: 3044597347612283591
+      Bunny_death_4: 3125021343509324734
+      Bunny_death_5: -6022066330423514128
+      Bunny_death_6: -813714564518333989
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
